@@ -53,7 +53,6 @@ pre {
 /* ----- base elements ----- */
 
 img {
-  max-width:100%!important;
   height:auto;
   vertical-align:middle;
 }
@@ -70,7 +69,6 @@ hr {
 
 .container h1, .container h2, .container h3, .container h4 {
   margin-bottom: 20px;
-  text-align: center;
   padding: 0 4%;
 }
 .container p, .container ol, .container ul {
@@ -165,12 +163,59 @@ nav ul li:hover, nav ul li.active {
 
 /* ----- sections/articles ----- */
 
+.logo--row {
+  display: inline;
+
+}
+.logo--row img {
+  max-width: 225px;
+padding: 3% 0 0 5%;
+}
+
+#bio-pic {
+  background: url(img/tamika.jpg);
+  background-size: cover;
+  max-width: 100%;
+  max-height: 518px;
+  margin-top: 69px;
+}
+
+#bio-pic h2 {
+    padding:0 45% 0 4%;
+}
+
+@media screen and (min-width:800px) {
+  #bio-pic {
+    min-height: 518px;
+
+  }
+
+}
+
+@media screen and (max-width:768px) {
+  #bio-pic {
+        max-height: 290px;
+        margin-top: 48px;
+
+  }
+
+}
+
+@media screen and (max-width:368px) {
+  #bio-pic {
+        max-height: 230px;
+  }
+
+}
+
+
+
 .section {
   position:relative;
   display:block;
   width:100%;
   min-height:300px;
-  padding:210px 0;
+  padding:50px 0;
   background:url(img/bgnoise.png);
   /* generated noise from noisetexturegenerator.com */
 }
