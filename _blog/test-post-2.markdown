@@ -1,7 +1,7 @@
 ---
 title: Test Post 2
 date: 2017-06-29 21:37:00 Z
-categories:
+tags:
 - social justice
 ---
 
