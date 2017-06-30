@@ -1,19 +1,16 @@
----
----
-
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ site.title }}</title>
-	<meta name="keywords" content="{{ site.keywords }}">
-	<meta name="description" content="{{ site.description }}">
+  <title>Tamika Butler - Portfolio</title>
+	<meta name="keywords" content="Tamika Butler, Social Justice, Consulting, Speaking">
+	<meta name="description" content="A single-page template for Jekyll based blogs (like what you'd use on github pages!)">
   <link rel="stylesheet" href="combo.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,800" rel="stylesheet">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-  {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
-	{% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 </head>
 <body>
   <div id="main">
@@ -27,65 +24,159 @@
       </ul></nav>
 
     <div id="bio-pic" class="section p bio">
-      <div class="container {{ page.style }}">
+      <div class="container ">
       <h1>Tamika Butler</h1>
       <h4>Shining a light on equality and social justice</h4>
     </div>
     </div>
 
 
-    {% for page in site.posts reversed %}
-      {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
-      <div id="{{id}}" class="section p-{{id}}">
-        {% if page.icon %}
-        <div class="subtlecircle sectiondivider imaged">
-          <img src="{{page.icon}}" alt="section icon" />
-          <h5 class="icon-title">{{ page.title }}</h5>
-        </div>
-        {% elsif page.fa-icon %}
-        <div class="subtlecircle sectiondivider faicon">
-          <span class="fa-stack">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-{{ page.fa-icon }} fa-stack-1x"></i>
-          </span>
-          <h5 class="icon-title">{{ page.title }}</h5>
-        </div>
-        {% endif %}
-        <div class="container {{ page.style }}">
-          {{ page.content }}
+    
+      
+      <div id="intro" class="section p-intro">
+        
+        <div class="container ">
+          <h3>About Tamika</h3>
+
+<p>Tamika is the Executive Director of the Los Angeles County Bicycle Coalition. Prior to leading LACBC, Tamika was the Director of Social Change Strategies at Liberty Hill Foundation, and worked at Young Invincibles as the California Director. She transitioned to policy work after litigating for three years as an employment lawyer at Legal Aid Society-Employment Law Center. Tamika received her J.D. in 2009 from Stanford Law School, and in 2006 received her B.A. in Psychology and B.S. in Sociology in her hometown of Omaha, Nebraska. Tamika currently serves as the co-chair of the National Center for Lesbian Rights Board of Directors, serves as the Institute Co-Director of the New Leaders Council - Los Angeles, and is an advisory board member for the Legal Aid Society-Employment Law Center’s Fair Play for Girls in Sports program.</p>
+
+<p><a href="mailto:peterhironaka@mac.com">Contact Tamika</a></p>
+
         </div>
       </div>
-    {% endfor %}
+    
+      
+      <div id="why" class="section p-why">
+        
+        <div class="container ">
+          <h2>Speaking Engagements</h2>
+
+<p>Got some <em>killer app</em>, some <em>neat project</em>, a cool portfolio? Make an easy single-page site to show it all off. SinglePaged uses jekyll niceties to make a/</p>
+
+<div class="logo--row">
+<img src="/img/microsoft.png" />
+</div>
+
+<div class="logo--row">
+<img src="/img/microsoft.png" />
+</div>
+
+<div class="logo--row">
+<img src="/img/microsoft.png" />
+</div>
+
+<div class="logo--row">
+<img src="/img/microsoft.png" />
+</div>
+
+<div class="logo--row">
+<img src="/img/microsoft.png" />
+</div>
+
+<div class="logo--row">
+<img src="/img/microsoft.png" />
+</div>
+
+<div class="logo--row">
+<img src="/img/microsoft.png" />
+</div>
+
+<div class="logo--row">
+<img src="/img/microsoft.png" />
+</div>
+
+<div class="logo--row">
+<img src="/img/microsoft.png" />
+</div>
+
+<div class="logo--row">
+<img src="/img/microsoft.png" />
+</div>
+
+<div class="logo--row">
+<img src="/img/microsoft.png" />
+</div>
+
+<div class="logo--row">
+<img src="/img/microsoft.png" />
+</div>
+
+<!-- 
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/img/microsoft.png"</span><span class="nt">&gt;</span> <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/img/microsoft.png"</span><span class="nt">&gt;</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+ -->
+
+        </div>
+      </div>
+    
     <div id="blog" class="section p-blog">
 
 <div class="container ">
     <h2>Blog Posts</h2>
 </div>
-    {% for blog in site.blog  limit: 2 %}
+    
 
-    {% capture id %}{{ blog.id | remove:'/' | downcase }}{% endcapture %}
-    <div id="{{id}}" class="blog p-{{id}}">
-      <div class="container {{ blog.style }}">
+    
+    <div id="blogtest-post-1" class="blog p-blogtest-post-1">
+      <div class="container ">
 
-        <h4><a href="{{blog.url}}">{{ blog.title }}</a></h4>
-        <h5>{{blog.date |  date: '%B %d, %Y'}}</h5>
-        {{ blog.content }}
-        <p><a href="{{blog.url}}">Read More</a></p>
+        <h4><a href="/blog/test-post-1">Test Post 1</a></h4>
+        <h5>June 29, 2017</h5>
+        <p>Numbers, Booleans, and strings are the bricks that data structures are built from. But you can’t make much of a house out of a single brick. Objects allow us to group values—including other objects—together and thus build more complex structures.</p>
+
+
+        <p><a href="/blog/test-post-1">Read More</a></p>
     </div>
   </div>
 
-    {%endfor%}
+    
+
+    
+    <div id="blogtest-post-2" class="blog p-blogtest-post-2">
+      <div class="container ">
+
+        <h4><a href="/blog/test-post-2">Test Post 2</a></h4>
+        <h5>June 29, 2017</h5>
+        <p>Numbers, Booleans, and strings are the bricks that data structures are built from. But you can’t make much of a house out of a single brick. Objects allow us to group values—including other objects—together and thus build more complex structures.</p>
+
+
+        <p><a href="/blog/test-post-2">Read More</a></p>
+    </div>
+  </div>
+
+    
     </div>
 
     <div id="footer" class="section text-white">
       <div class="container">
-        {% capture foottext %} {% include footer.md %} {% endcapture %}
-        {{ foottext | markdownify }}
+        
+        
+<h3><a href="http://t413.com/">Request more info &amp; Fee Schedule </a></h3>
+<p>—
+<a href="https://github.com/t413/SinglePaged">SinglePaged theme</a>
+—
+this site is <a href="https://github.com/t413/SinglePaged">open source</a></p>
+
+
       </div>
     </div>
   </div>
 
-{% include analytics.html %}
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-49607422-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
 </body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="site.js"></script>
