@@ -1,6 +1,5 @@
 ---
 ---
-
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
@@ -19,16 +18,17 @@
   <div id="main">
 
     <nav><ul>
-      {% for node in site.posts reversed %}
-        {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-        <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
-      {% endfor %}
-    </ul></nav>
+
+          <li class="p-intro active"><a href="#intro">about</a></li>
+          <li class="p-why"><a href="#why">speaking</a></li>
+          <li class="p-blog"><a href="#blog">Blog Posts</a></li>
+
+      </ul></nav>
 
     <div id="bio-pic" class="section p bio">
       <div class="container {{ page.style }}">
       <h1>Tamika Butler</h1>
-      <h2>Shining a light on equality and social justice</h2>
+      <h4>Shining a light on equality and social justice</h4>
     </div>
     </div>
 
@@ -55,7 +55,26 @@
         </div>
       </div>
     {% endfor %}
+    <div id="blog" class="section p-blog">
 
+<div class="container ">
+    <h2>Blog Posts</h2>
+</div>
+    {% for blog in site.blog  limit: 2 %}
+
+    {% capture id %}{{ blog.id | remove:'/' | downcase }}{% endcapture %}
+    <div id="{{id}}" class="blog p-{{id}}">
+      <div class="container {{ blog.style }}">
+
+        <h4><a href="{{blog.url}}">{{ blog.title }}</a></h4>
+        <h5>{{blog.date |  date: '%B %d, %Y'}}</h5>
+        {{ blog.content }}
+        <p><a href="{{blog.url}}">Read More</a></p>
+    </div>
+  </div>
+
+    {%endfor%}
+    </div>
 
     <div id="footer" class="section text-white">
       <div class="container">

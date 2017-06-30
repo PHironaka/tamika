@@ -77,8 +77,9 @@ hr {
 }
 .container ol, .container ul { padding: 0 8%; }
 .container p:first-of-type {
-    margin-top: 40px;
+    margin-top: 20px;
 }
+
 
 /* keep embedded videos fluid! */
 .icontain {
@@ -180,7 +181,7 @@ padding: 3% 0 0 5%;
   margin-top: 69px;
 }
 
-#bio-pic h2 {
+#bio-pic h4 {
     padding:0 45% 0 4%;
 }
 
@@ -210,13 +211,26 @@ padding: 3% 0 0 5%;
 
 
 
+.blog p {
+  width: 85%;
+}
+
+.blog h5 {
+      padding: 0 4%;
+}
+
+.container h2 {
+  margin: 2em 0;
+}
+
+
 .section {
   position:relative;
   display:block;
   width:100%;
   min-height:300px;
   padding:50px 0;
-  background:url(img/bgnoise.png);
+  /*background:url(img/bgnoise.png);*/
   /* generated noise from noisetexturegenerator.com */
 }
 
@@ -228,8 +242,7 @@ padding: 3% 0 0 5%;
 #footer {
   padding: 8px 0;
   min-height:0;
-  text-align:center;
-  background-color:#2e2e2e;
+  background-color:#030730;
   background-image:none;
 }
 #footer .container p { font-size:13px; margin:0; }
