@@ -5,6 +5,9 @@ collections:
   blog:
     title: Blog
     output: true
+  news:
+    title: News
+    output: true
   posts:
     title: Posts
     output: true
