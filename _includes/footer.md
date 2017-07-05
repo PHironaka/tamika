@@ -1,7 +1,9 @@
 
 
-### [Request more info & Fee Schedule ](http://t413.com/)
+### Request more info & Fee Schedule 
+
+
+
+#### Get In Touch
 &mdash;
-[SinglePaged theme](https://github.com/t413/SinglePaged)
-&mdash;
-this site is [open source]({{ site.source_link }})
+[bultertl@gmail.com](mailto:bultertl@gmail.com)

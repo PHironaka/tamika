@@ -69,11 +69,10 @@ hr {
 
 .container h1, .container h2, .container h3, .container h4 {
   margin-bottom: 20px;
-  padding: 0 4%;
+  /*padding: 0 4%;*/
 }
 .container p, .container ol, .container ul {
   font-size: 17px;
-  padding: 0 5%;
 }
 .container ol, .container ul { padding: 0 8%; }
 .container p:first-of-type {
@@ -120,7 +119,7 @@ nav {
   z-index:100;
   top:0;
   left:0;
-  background:#2e2e2e;
+  background:#030730;
 }
 
 nav ul {
@@ -182,7 +181,11 @@ padding: 3% 0 0 5%;
 }
 
 #bio-pic h4 {
-    padding:0 45% 0 4%;
+    padding:0 45% 0 0%;
+}
+
+#bio-pic a {
+  color: white;
 }
 
 @media screen and (min-width:800px) {
@@ -195,7 +198,7 @@ padding: 3% 0 0 5%;
 
 @media screen and (max-width:768px) {
   #bio-pic {
-        max-height: 290px;
+      max-height: 372px;
         margin-top: 48px;
 
   }
@@ -204,8 +207,10 @@ padding: 3% 0 0 5%;
 
 @media screen and (max-width:368px) {
   #bio-pic {
-        max-height: 230px;
+        max-height: 372px;
   }
+
+
 
 }
 
@@ -214,13 +219,20 @@ padding: 3% 0 0 5%;
 .blog p {
   width: 85%;
 }
-
+/*
 .blog h5 {
       padding: 0 4%;
-}
+}*/
 
 .container h2 {
   margin: 2em 0;
+}
+
+.container svg {
+  margin: 0 0 0 4%;
+  border: 3px solid;
+  padding: 8px;
+  border-radius: 33px;
 }
 
 
@@ -240,11 +252,20 @@ padding: 3% 0 0 5%;
 
 
 #footer {
-  padding: 8px 0;
+  padding: 30px 0;
   min-height:0;
   background-color:#030730;
   background-image:none;
 }
+
+#footer h3 {
+  border: 1px solid red;
+padding: 11px;
+width: 67%;
+border-radius: 10px;
+background: #0f0f6f;
+}
+
 #footer .container p { font-size:13px; margin:0; }
 
 .subtlecircle {
@@ -385,7 +406,6 @@ padding: 3% 0 0 5%;
 	.container h4 { font-size: 18px; }
 
 
-  .section { padding:130px 0; }
   .sectiondivider {
     width:200px;
     height:200px;
