@@ -697,14 +697,6 @@ padding: 3% 0 0 5%;
   color: white;
 }
 
-@media screen and (min-width:800px) {
-  #bio-pic {
-    min-height: 518px;
-
-  }
-
-}
-
 @media screen and (max-width:768px) {
   #bio-pic {
       min-height: 315px;
