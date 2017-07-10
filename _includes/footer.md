@@ -1,9 +1,9 @@
 
 
-### Request more info & Fee Schedule 
+<!-- ### Request more info & Fee Schedule  -->
 
 
 
-#### Get In Touch
+#### Contact / Request Fee Schedule
 &mdash;
 [bultertl@gmail.com](mailto:bultertl@gmail.com)

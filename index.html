@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="combo.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,800" rel="stylesheet">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick-theme.css"/> -->
+
   {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
 	{% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
 </head>
@@ -54,6 +56,18 @@
       	v99.803H182.409z"/>
       </svg>
 </a>
+ 
+<a href="http://facebook.com" target="_blank">
+
+  <svg width="46px" height="46px" viewBox="0 0 49 40.7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g id="0625e1c7108838d26f1a5a3df2a54f18" fill-rule="nonzero" fill="#FFFFFF">
+              <path d="M42.7142857,37.375 C42.7142857,37.8842857 42.3293878,38.3333333 41.8928571,38.3333333 L4.10714286,38.3333333 C3.67061224,38.3333333 3.28571429,37.8842857 3.28571429,37.375 L3.28571429,14.375 C3.8255102,15.092381 4.41693878,15.755 5.05530612,16.3519048 C8.72591837,19.6485714 12.4246939,23 15.9920408,26.4719048 C17.9165306,28.3611905 20.3057143,30.6666667 22.9718367,30.6666667 L22.9953061,30.6666667 L23.0187755,30.6666667 C25.6895918,30.6666667 28.0740816,28.3611905 30.0032653,26.4719048 C33.5706122,23 37.2693878,19.6430952 40.94,16.3519048 C41.5830612,15.755 42.1697959,15.092381 42.7095918,14.375 L42.7142857,37.375 L42.7142857,37.375 Z M42.7142857,5.89785714 C42.7142857,8.44428571 40.6114286,11.7683333 38.9404082,13.2961905 C35.4997959,16.4395238 32.0591837,19.6157143 28.6467347,22.7919048 C27.2855102,24.0788095 24.8212245,26.8333333 23.0234694,26.8333333 L23,26.8333333 L22.9765306,26.8333333 C21.1787755,26.8333333 18.7144898,24.0788095 17.3532653,22.7919048 C13.9408163,19.6157143 10.5002041,16.445 7.05959184,13.3016667 C4.75020408,11.1714286 3.28571429,8.20880952 3.28571429,4.79166667 C3.28571429,4.28238095 3.67061224,3.83333333 4.10714286,3.83333333 L41.8928571,3.83333333 C42.8691837,3.83333333 42.7142857,5.15309524 42.7142857,5.89785714 Z M46,4.79166667 C46,2.15761905 44.1506122,0 41.8928571,0 L4.10714286,0 C1.84938776,0 0,2.15761905 0,4.79166667 L0,37.375 C0,40.0090476 1.84938776,42.1666667 4.10714286,42.1666667 L41.8928571,42.1666667 C44.1506122,42.1666667 46,40.0090476 46,37.375 L46,4.79166667 Z" id="Shape"></path>
+          </g>
+      </g>
+  </svg>
+</a>
 
     </div>
     </div>
@@ -81,43 +95,76 @@
         </div>
       </div>
     {% endfor %}
+
+    <section class="wrapper">
+	<section class="slider-container">
+		<div class="slider-images-container">
+
+      {% for videos in site.videos  %}
+
+      <iframe class="slide-image" width="560" height="315" src="{{videos.link}}" frameborder="0" allowfullscreen></iframe>
+  {% endfor %}
+</div>
+	</section>
+</section>
+
+<!-- <div id="contact" class="section p-contact">
+
+</div> -->
+
     <div id="blog" class="section p-blog">
 
 <div class="container ">
     <h2>Blog Posts</h2>
 </div>
-    {% for blog in site.blog  limit: 2 %}
+<div class="container {{ blog.style }}">
+
+    {% for blog in site.blog  limit: 3 %}
 
     {% capture id %}{{ blog.id | remove:'/' | downcase }}{% endcapture %}
-    <div id="{{id}}" class="blog p-{{id}}">
-      <div class="container {{ blog.style }}">
 
-        <h4><a href="{{blog.url}}">{{ blog.title }}</a></h4>
-        <h5>{{blog.date |  date: '%B %d, %Y'}}</h5>
-        {{ blog.content }}
-        <p><a href="{{blog.url}}">Read More</a></p>
+    <div id="{{id}}" class="blog p-{{id}}">
+
+        <div class="blog-content p-{{id}}">
+
+
+        <img src="{{blog.image}}" alt="">
+        <div class="copy p-{{id}}">
+          <h5>{{blog.date |  date: '%B %d, %Y'}}</h5>
+          <h4><a href="{{blog.url}}">{{ blog.title }}</a></h4>
+          {{ blog.content }}
+          <p><a href="{{blog.url}}">Read More</a></p>
+        </div>
+      </div>
     </div>
-  </div>
+
 
     {%endfor%}
+      </div>
     </div>
 
     <div id="News" class="section p-news">
 
 <div class="container ">
-    <h2>News Posts</h2>
+    <h2>Tamika in the News</h2>
 </div>
+<div class="container {{ news.style }}">
+
     {% for news in site.news  %}
 
     {% capture id %}{{ news.id | remove:'/' | downcase }}{% endcapture %}
+
     <div id="{{id}}" class="news p-{{id}}">
-      <div class="container {{ News.style }}">
+        <img src="{{news.image}}" alt="">
+
         <h4><a href="{{news.url}}">{{ news.title }}</a></h4>
-        <h5>{{news.date |  date: '%B %d, %Y'}}</h5>
+        <p>{{news.source}}</p>
+        <h5>{{news.date |  date: "%m/%d/%Y"}}</h5>
     </div>
-  </div>
+
 
     {%endfor%}
+      </div>
     </div>
 
 
@@ -131,6 +178,42 @@
 
 {% include analytics.html %}
 </body>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js"></script>
 <script src="site.js"></script>
+<script type="text/javascript">
+// Uses Slick Slider by Ken Wheeler
+// https://kenwheeler.github.io/slick/
+
+(function() {
+setTimeout(function(){
+  $('.slider-images-container').slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    dots: false,
+    responsive: [{
+      breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: false
+        }
+    }]
+  });
+}, 1000);
+// $('.slider-images-container').slick({
+// 	slidesToShow: 2,
+// 	slidesToScroll: 1,
+// 	dots: true,
+// 	responsive: [{
+// 		breakpoint: 480,
+// 		settings: {
+// 			slidesToShow: 1,
+// 			slidesToScroll: 1,
+// 			dots: false
+// 		}
+// 	}]
+// });
+}(jQuery));
+</script>
 </html>
