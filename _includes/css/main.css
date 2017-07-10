@@ -178,7 +178,7 @@ padding: 3% 0 0 5%;
   background: url(img/tamika.jpg);
   background-size: cover;
   max-width: 100%;
-  max-height: 518px;
+  min-height: 553px;
   margin-top: 69px;
 }
 
