@@ -61,17 +61,18 @@
 
 /* #Typography
 ================================================== */
-	h1, h2, h3 { font-weight: 800;}
+	h1 { font-weight: 800;}
+
+	h2, h3 { font-weight: 400;}
 
 	h4, h5, h6 {
-		font-weight: 300; }
+		font-weight: 400; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
 	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
 	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
-	h4 { font-size: 20px; line-height: 24px; margin-bottom: 4px; }
-	h5 { font-size: 17px; line-height: 24px; }
-	h6 { font-size: 14px; line-height: 21px; }
+	h4 { font-size: 18px; line-height: 24px; margin-bottom: 4px; }
+	h5 { font-size: 13px; line-height: 24px; font-weight: 400;}
 	.subheader { color: #777; }
 
 	p { margin: 0 0 20px 0; }
@@ -518,18 +519,26 @@ html { box-sizing: border-box; }
   
   
   
-  nav .p-why { border-color: #f8f8f8; }
-  #why { background-color: #f8f8f8 !important; color: #111111; }
+  nav .p-why { border-color: ECF1F0; }
+  #why { background-color: #ECF1F0 !important; color: #111111; }
   #why a { color: #111111; }
-  #why .sectiondivider { color: #f8f8f8; }
+  #why .sectiondivider { color: ECF1F0; }
 
   
   
   
-  nav .p-intro { border-color: midnightblue; }
-  #intro { background-color: midnightblue !important; color: #f8f8f8; }
+  nav .p-text { border-color: fff; }
+  #text { background-color: #fff !important; color: #111111; }
+  #text a { color: #111111; }
+  #text .sectiondivider { color: fff; }
+
+  
+  
+  
+  nav .p-intro { border-color: 20265B; }
+  #intro { background-color: #20265B !important; color: #f8f8f8; }
   #intro a { color: #f8f8f8; }
-  #intro .sectiondivider { color: midnightblue; }
+  #intro .sectiondivider { color: 20265B; }
 
 
 
@@ -574,13 +583,13 @@ hr {
 .left, .container .left { text-align: left; }
 
 .container h1, .container h2, .container h3, .container h4 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   /*padding: 0 4%;*/
 }
 .container p, .container ol, .container ul {
-  font-size: 17px;
+  font-size: 16px;
 }
-.container ol, .container ul { padding: 0 8%; }
+.container ol, .container ul { padding: 0 3%; }
 .container p:first-of-type {
     margin-top: 20px;
 }
@@ -625,12 +634,12 @@ nav {
   z-index:100;
   top:0;
   left:0;
-  background:midnightblue;
+  background:white;
 }
 
 nav ul {
   list-style:none;
-  text-align:center;
+  text-align:left;
   padding:0;
   margin:0;
   letter-spacing:-4px;
@@ -638,9 +647,6 @@ nav ul {
 
 nav ul li {
   display:inline-block;
-  border-top:3px solid;
-  padding: 3px;
-  *display:inline;
   zoom:1;
   line-height:normal;
   letter-spacing:normal;
@@ -652,10 +658,8 @@ nav ul li {
 
 nav ul li a, nav ul li a:visited {
   display:block;
-  color:#fff;
+  color:black;
   text-decoration:none;
-  font-weight:600;
-  opacity:.75;
 }
 
 nav ul li a:hover {
@@ -677,7 +681,7 @@ nav ul li:hover, nav ul li.active {
 
 }
 .logo--row img {
-  max-width: 225px;
+  max-width: 196px;
 padding: 3% 0 0 5%;
 }
 
@@ -715,6 +719,14 @@ padding: 3% 0 0 5%;
 
 }
 
+#text {
+  word-spacing: 60px;
+  text-align: center;
+      padding: 20px 0;
+}
+
+
+
 #News {background-color: #DDF1C8;}
 
 .news {
@@ -723,14 +735,6 @@ display: inline-grid;
 background-color: white;
 margin: 0 1.62em 0 0;
 }
-
-@media screen and (min-width:800px) {
-  .news  {
-    width: 100%;
-    padding: 19px 19px 0;
-    display: block;
-
-  }
 
 
 
@@ -749,6 +753,17 @@ margin: 0 1.62em 0 0;
   padding: 0 1em 1em;
 }
 
+#blog h2  {
+  color: #9CE2A1;
+}
+
+#blog .blog-content h4 a {font-weight: 400; color: #9CE2A1;}
+
+#News h2, h4 a {
+  font-weight: 400;
+  color: #4990E2;
+}
+
 #blogtest-post-1 {
   background-color: #EFF9E6;
 }
@@ -761,15 +776,16 @@ margin: 0 1.62em 0 0;
   width: 52%;
 padding: 19px 19px 0;
 display: inline-block;
+    vertical-align: top;
 }
 
-@media screen and (min-width:800px) {
+/*@media screen and (max-width:800px) {
   .copy.p-blogtest-post-1 {
     width: 100%;
     padding: 19px 19px 0;
     display: block;
 
-  }
+  }*/
 
 
 #blogtest-post-2 ,
@@ -808,7 +824,6 @@ margin: 0;
   position:relative;
   display:block;
   width:100%;
-  min-height:300px;
   padding:50px 0;
   /*background:url(img/bgnoise.png);*/
   /* generated noise from noisetexturegenerator.com */
@@ -917,7 +932,7 @@ background: #0f0f6f;
 	width: 43%;
 	display: inline-block;
 }
-
+/*
 
 .slick-slider {
 	position: relative;
@@ -925,9 +940,9 @@ background: #0f0f6f;
 
 .slick-active {
 	opacity: 1;
-}
+}*/
 
-.slick-arrow {
+/*.slick-arrow {
 	position: absolute;
 	top: 10%;
 	background-color: transparent;
@@ -957,7 +972,7 @@ background: #0f0f6f;
     border-radius: 0;
     margin: 0 1em;
 }
-
+*/
 
 /* ----- fork on github banner ----- */
 #forkongithub a {
