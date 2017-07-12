@@ -118,7 +118,7 @@ nav {
   z-index:100;
   top:0;
   left:0;
-  background:white;
+  background:#20265B ;
 }
 
 nav ul {
@@ -137,12 +137,12 @@ nav ul li {
   text-transform:uppercase;
   min-width:110px;
   line-height:60px;
-  margin:0;
+      margin: 0 10px 0 0;
 }
 
 nav ul li a, nav ul li a:visited {
   display:block;
-  color:black;
+  color:white;
   text-decoration:none;
 }
 
@@ -165,16 +165,49 @@ nav ul li:hover, nav ul li.active {
 
 }
 .logo--row img {
-  max-width: 196px;
-padding: 3% 0 0 5%;
+  max-width: 330px;
+padding: 3% 4% 0 0;
+}
+
+.contact {
+  float: right;
+padding: .5em 0;
+color: white;
+letter-spacing: 0em;
+text-transform: uppercase;
+}
+
+.contact svg {
+  margin: 0 0 0 4%;
+ border: 0 !important;
+padding: 8px;
+ border-radius: 0 !important;
 }
 
 #bio-pic {
   background: url(img/tamika.jpg);
+  background-attachment: fixed;
+  min-width: 825px;
+  height: 790px;
+  background-color: #fff;
+  background-position: 78% 0px;
+  background-repeat: no-repeat;
   background-size: cover;
-  max-width: 100%;
-  min-height: 553px;
-  margin-top: 69px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+
+}
+@media screen and (max-width:850px) {
+#bio-pic {
+    background: url(img/tamika.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    max-width: 100%;
+    height: 460px;
+    margin-top: 69px;
+  }
 }
 
 #bio-pic h4 {
@@ -187,8 +220,9 @@ padding: 3% 0 0 5%;
 
 @media screen and (max-width:768px) {
   #bio-pic {
-      min-height: 315px;
-        margin-top: 48px;
+    height: 300px;
+min-width: 408px;
+margin-top: 48px;
 
   }
 
@@ -215,11 +249,32 @@ padding: 3% 0 0 5%;
 
 .news {
   width: 17.5em;
-display: inline-grid;
-background-color: white;
-margin: 0 1.62em 0 0;
+  display: inline-block;
+  background-color: white;
+  margin: 0 1.62em 0 0;
+  vertical-align: top;
 }
 
+@media screen and (max-width:768px) {
+  .news {
+width: 13.5em;
+display: inline-block;
+background-color: white;
+margin: 0 0.3em 0 0;
+vertical-align: top;
+}
+}
+
+
+@media screen and (max-width:550px) {
+  .news {
+    width: 100%;
+    display: block;
+    background-color: white;
+    margin: 0 0.3em 0 0;
+    vertical-align: top;
+}
+}
 
 
 .news h4 {
@@ -253,14 +308,24 @@ margin: 0 1.62em 0 0;
 }
 
 #blogtest-post-1  img {
-  padding: 25px 0px;
+  padding: 20px;
 }
 
 .copy.p-blogtest-post-1 {
-  width: 52%;
+  width: 47%;
 padding: 19px 19px 0;
 display: inline-block;
     vertical-align: top;
+}
+
+
+@media screen and (max-width:550px) {
+  .copy.p-blogtest-post-1 {
+    width: 100%;
+  padding: 19px 19px 0;
+  display: block;
+  vertical-align: top;
+  }
 }
 
 /*@media screen and (max-width:800px) {
@@ -274,14 +339,20 @@ display: inline-block;
 
 #blogtest-post-2 ,
 #blogtest-post-3  {
-  width: 28.815em;
-display: inline-grid;
-background-color: white;
-margin: 0;
-    padding: 2em 1em 0 0;
+  width: 28.9267em;
+       background-color: white;
+      margin: 0;
+      padding: 2em 1em;
+      float: left;
 }
 
-
+@media screen and (max-width:550px) {
+  #blogtest-post-2 ,
+  #blogtest-post-3  {
+    width: 100%;
+  display: block;
+  }
+}
 
 
 .blog p {
