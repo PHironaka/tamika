@@ -28,8 +28,7 @@ permalink: "/:title"
 lsi: false
 markdown: kramdown
 keywords: Tamika Butler, Social Justice, Consulting, Speaking
-description: A single-page template for Jekyll based blogs (like what you'd use on
-  github pages!)
+description: 'Tamika is the Executive Director of the Los Angeles County Bicycle Coalition. '
 source_link: https://github.com/t413/SinglePaged
 favicon: img/favicon.ico
 touch_icon: img/apple-touch-icon.png
