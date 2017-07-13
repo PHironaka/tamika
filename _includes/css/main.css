@@ -190,7 +190,7 @@ text-transform: uppercase;
 @media screen and (max-width:468px) {
 .contact {
       float: left;
-      display: inline;
+          display: inline-table;
   }
 
 
@@ -621,8 +621,8 @@ background: #0f0f6f;
 @media only screen and (max-width: 679px) {
   nav { font-size:11px; }
   nav ul li {
-    min-width:60px;
-    line-height:40px;
+
+    display: inline-block;
   }
 }
 
