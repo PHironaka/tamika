@@ -142,7 +142,7 @@ nav ul li {
 
 @media screen and (max-width:468px) {
 nav ul li {
-      margin: 0 7px 0 0;
+      margin: 7px 7px 0 0;
   }
 
 
@@ -190,6 +190,7 @@ text-transform: uppercase;
 @media screen and (max-width:468px) {
 .contact {
       float: left;
+      display: inline;
   }
 
 
@@ -262,6 +263,9 @@ margin-top: 100px;
 
 
 }
+
+
+
 
 #text {
   word-spacing: 60px;
@@ -417,6 +421,12 @@ display: inline-block;
 
 .section:first-of-type {
     padding-top: 140px;
+}
+
+@media screen and (max-width:468px) {
+  .section:first-of-type {
+    padding-top: 50px;
+  }
 }
 
 
@@ -625,7 +635,7 @@ background: #0f0f6f;
 	.container h1 { font-size: 30px; }
 	.container h2 { font-size: 24px; }
 	.container h3 { font-size: 20px; }
-	.container h4 { font-size: 15px; }
+	.container h4 { font-size: 14px; }
 
 
   .sectiondivider {
