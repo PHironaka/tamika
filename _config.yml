@@ -1,0 +1,48 @@
+---
+title: Tamika Butler - Portfolio
+timezone: UTC
+collections:
+  blog:
+    title: Blog
+    output: true
+  news:
+    title: News
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  videos:
+    title: Videos
+    output: true
+port: 4000
+host: 0.0.0.0
+safe: false
+exclude:
+- CNAME
+- README.md
+- ".gitignore"
+permalink: "/:title"
+gems:
+- jekyll-seo-tag
+lsi: false
+markdown: kramdown
+keywords: Tamika Butler, Social Justice, Consulting, Speaking
+description: 'Tamika is the Executive Director of the Los Angeles County Bicycle Coalition. '
+source_link: https://github.com/t413/SinglePaged
+favicon: img/favicon.ico
+touch_icon: img/apple-touch-icon.png
+logo: "/img/tamika.jpg"
+google_analytics_key: UA-49607422-1
+colors:
+  black: "#111111"
+  white: "#f8f8f8"
+  blue: "#49a7e9"
+  green: "#9bcf2f"
+  purple: "#c869bf"
+  orange: "#fab125"
+  turquoise: "#0fbfcf"
+kramdown:
+  auto_ids: false
