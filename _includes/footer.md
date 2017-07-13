@@ -2,8 +2,7 @@
 
 <!-- ### Request more info & Fee Schedule  -->
 
-
-
 #### Contact / Request Fee Schedule
-&mdash;
-[Email Tamika](mailto:bultertl@gmail.com)
+##### [Click Here for more info.](mailto:bultertl@gmail.com)
+
+© {{ 'now' | date: "%Y" }} Tamika Butler
