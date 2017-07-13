@@ -135,7 +135,6 @@ nav ul li {
   line-height:normal;
   letter-spacing:normal;
   text-transform:uppercase;
-  min-width:;
   line-height:60px;
       margin: 0 20px 0 0;
 }
@@ -248,8 +247,7 @@ padding: 8px;
   #bio-pic {
     height: 324px;
 min-width: 408px;
-    margin-top: 100px;
-
+    margin-top: 61px;
   }
 
 }
@@ -438,6 +436,20 @@ display: inline-block;
   background-image:none;
 }
 
+#footer h4 {
+
+  text-align: center;
+  font-size: 20px;
+}
+
+#footer h5 {
+  border: 2px solid;
+width: 194px;
+padding: 8px 6px;
+text-align: center;
+margin: 2em auto;
+}
+
 #footer h3 {
   border: 1px solid red;
 padding: 11px;
@@ -446,7 +458,7 @@ border-radius: 10px;
 background: #0f0f6f;
 }
 
-#footer .container p { font-size:13px; margin:0; }
+#footer .container p { font-size:13px; margin:0;  }
 
 .subtlecircle {
   text-align:center;
@@ -621,7 +633,6 @@ background: #0f0f6f;
 @media only screen and (max-width: 679px) {
   nav { font-size:11px; }
   nav ul li {
-
     display: inline-block;
   }
 }
