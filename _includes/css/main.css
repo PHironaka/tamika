@@ -214,6 +214,7 @@ padding: 8px;
   background-attachment: fixed;
   min-width: 825px;
   height: 790px;
+  overflow-x: hidden;
   background-color: #fff;
   background-position: 78% 0px;
   background-repeat: no-repeat;
@@ -520,7 +521,7 @@ background: #0f0f6f;
 	max-width: 95%;
 	margin: 0 auto;
 	padding-top: 35px;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .slide-image {
