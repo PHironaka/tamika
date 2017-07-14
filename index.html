@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="combo.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,800" rel="stylesheet">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-  <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick-theme.css"/> -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick-theme.css"/>
 
   {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
 	{% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
@@ -173,7 +173,15 @@
     {%endfor%}
       </div>
     </div>
+    <div id="instagram">
+      <div class="container">
+        <h2>Latest Snaps</h2>
 
+        <div id="instafeed"></div>
+
+      </div>
+
+    </div>
 
 
     <div id="footer" class="section text-white">
@@ -211,10 +219,18 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
 </body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js"></script>
-
+<script src="instafeed.min.js" ></script>
 
 <script src="site.js"></script>
 
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        userId: '1051855',
+        accessToken: '1051855.ba4c844.1094e60318f64cdbb53699260cf5936f'
+    });
+    feed.run();
+</script>
 
 <script type="text/javascript">
 // Uses Slick Slider by Ken Wheeler

@@ -1,0 +1,22 @@
+{
+  "name": "singlepaged",
+  "version": "1.0.0",
+  "description": "Fancy jekyll powered single page site ======================",
+  "main": "site.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PHironaka/tamika.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PHironaka/tamika/issues"
+  },
+  "homepage": "https://github.com/PHironaka/tamika#readme",
+  "dependencies": {
+    "instafeed.js": "^1.4.1"
+  }
+}
