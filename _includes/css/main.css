@@ -541,7 +541,7 @@ background: #0f0f6f;
 	width: 43%;
 	display: inline-block;
 }
-/*
+
 
 .slick-slider {
 	position: relative;
@@ -549,9 +549,9 @@ background: #0f0f6f;
 
 .slick-active {
 	opacity: 1;
-}*/
+}
 
-/*.slick-arrow {
+.slick-arrow {
 	position: absolute;
 	top: 10%;
 	background-color: transparent;
@@ -581,8 +581,14 @@ background: #0f0f6f;
     border-radius: 0;
     margin: 0 1em;
 }
-*/
 
+#instafeed {
+  padding: 0 0 4em;
+}
+#instafeed img {
+  width: 25%;
+  padding: 0 0 0 7px;
+}
 /* ----- fork on github banner ----- */
 #forkongithub a {
   color:#fff;
