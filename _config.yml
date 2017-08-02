@@ -34,7 +34,7 @@ description: 'Tamika is the Executive Director of the Los Angeles County Bicycle
 source_link: https://github.com/t413/SinglePaged
 favicon: img/favicon.ico
 touch_icon: img/apple-touch-icon.png
-logo: "/img/tamika.jpg"
+logo: "/uploads/HeaderHero.png"
 google_analytics_key: UA-49607422-1
 colors:
   black: "#111111"
