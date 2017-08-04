@@ -34,7 +34,7 @@ description: 'Tamika is the Executive Director of the Los Angeles County Bicycle
 source_link: https://github.com/t413/SinglePaged
 favicon: img/favicon.ico
 touch_icon: img/apple-touch-icon.png
-logo: "/img/tamika.jpg"
+logo: "/uploads/HeaderHero.png"
 google_analytics_key: UA-49607422-1
 colors:
   black: "#111111"
@@ -46,3 +46,29 @@ colors:
   turquoise: "#0fbfcf"
 kramdown:
   auto_ids: false
+training: 'As your trainer, Tamika will combine her diverse background as an employment
+  lawyer, nonprofit leader, and industry innovator on diversity and inclusion to take
+  your team through a series of interactive exercises towards changing culture and
+  deep growth.  Tamika will challenge your team, while working at your pace as people
+  learn complex ideas, build team cohesion, and identify shared goals. Tamika has
+  extensive experience facilitating workshops, meetings, and retreats in the private,
+  public, and nonprofit sectors and will work with you before and after the training
+  to make sure the training fits your specific organizational needs and includes concrete
+  next steps.
+
+'
+consulting: 'As your consultant, Tamika will help you and your organization push beyond
+  the comfort of your status quo. Working with you, Tamika will assess your needs,
+  identify areas of strength and areas for growth, and help tailor a unique action
+  plan for your organization to move from diversity to inclusion and fight inequity
+  and injustice.
+
+'
+speaking: 'As a speaker at your event or meeting, Tamika will use her unique blend
+  of charisma, humor, and direct bluntness to inspire the room. As a nationally renowned
+  speaker, Tamika will listen to your objectives and put together a speech specifically
+  for your event. Tamika employs her personal stories of successes and setbacks to
+  bring people in and connect intimately with groups of any size and ensure that people
+  leave the room thinking differently and challenging themselves to stay engaged.
+
+'
