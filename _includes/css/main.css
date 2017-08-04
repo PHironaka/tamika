@@ -209,13 +209,12 @@ padding: 8px;
 }
 
 #bio-pic {
-  background: url(img/tamika.jpg);
+  background: url({{site.logo}});
   background-attachment: fixed;
-  min-width: 825px;
-  height: 790px;
+  height: 690px;
   overflow-x: hidden;
   background-color: #fff;
-  background-position: 78% 0px;
+  background-position: right 0px top -109px;
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
@@ -226,7 +225,7 @@ padding: 8px;
 }
 @media screen and (max-width:850px) {
 #bio-pic {
-    background: url(img/tamika.jpg);
+    background: url({{site.logo}});
     background-size: cover;
     background-attachment: scroll;
     max-width: 100%;
@@ -234,6 +233,12 @@ padding: 8px;
     margin-top: 50px;
   }
 }
+
+#bio-pic h1  {
+      margin-top: 3em;
+}
+
+
 
 #bio-pic h4 {
     padding:0 45% 0 0%;
@@ -250,6 +255,10 @@ min-width: 408px;
     margin-top: 61px;
   }
 
+  #bio-pic h1  {
+        margin-top: 1em;
+  }
+
 }
 
 @media screen and (max-width:468px) {
@@ -259,7 +268,9 @@ min-width: 408px;
 margin-top: 100px;
   }
 
-
+  #bio-pic h1  {
+        margin-top: 0;
+  }
 
 }
 
@@ -267,10 +278,18 @@ margin-top: 100px;
 
 
 #text {
-  word-spacing: 60px;
-  text-align: center;
       padding: 20px 0;
 }
+
+#text h3 {
+  border-bottom: 1px solid #eee;
+  padding: 1em 0;
+}
+
+#text p{
+      padding: 0;
+}
+
 
 @media only screen and (max-width: 480px) {
   #text { text-align: left;     word-spacing: 15px; }
@@ -426,6 +445,9 @@ display: inline-block;
   .section:first-of-type {
     padding-top: 50px;
   }
+
+
+
 }
 
 
@@ -435,6 +457,29 @@ display: inline-block;
   background-color:midnightblue;
   background-image:none;
 }
+
+#footer ul {
+  list-style: none;
+}
+
+#footer ul li {
+  display: block;
+text-align: right;}
+
+
+@media screen and (max-width:468px) {
+
+  #footer ul li {
+    display: inline;
+  text-align: center;
+margin: 0 .5em;}
+
+
+}
+
+
+
+
 
 #footer h4 {
 
@@ -545,6 +590,7 @@ background: #0f0f6f;
 
 .slick-slider {
 	position: relative;
+  text-align: center;
 }
 
 .slick-active {
@@ -563,32 +609,77 @@ background: #0f0f6f;
 
 .slick-prev {
     left: 0px;
-    background: midnightblue;
+    background: url(/img/BackVideo.png);
     border: none;
     text-shadow: none;
     color: white;
     border-radius: 0;
     margin: 0 2em;
+
 }
 
 
 .slick-next {
     right: 0px;
-    background: midnightblue;
+    background: url(/img/Forward.png);
     border: none;
     text-shadow: none;
-    color: white;
+    color: black;
     border-radius: 0;
     margin: 0 1em;
+    width: 50px;
 }
+
+
+
+/* Arrows */
+.slick-prev,
+.slick-next
+{
+    text-indent: -9999px;
+    width: 50px;
+height: 50px;
+background-size: cover;
+}
+
+/* Arrows */
+.slick-prev:hover,
+.slick-next:hover
+{
+  outline: none;
+  opacity: .7;
+  border: none;
+}
+
+.slick-prev:active,
+.slick-next:active
+{
+  outline: none;
+  opacity: .7;
+  border: none;
+}
+
+
+
+
 
 #instafeed {
   padding: 0 0 4em;
 }
 #instafeed img {
-  width: 25%;
+    width: 33%;
   padding: 0 0 0 7px;
 }
+
+@media screen and (max-width:468px) {
+
+  #instafeed img {
+      width: 100%;
+    padding: 0 0 0 7px;
+  }
+
+}
+
 /* ----- fork on github banner ----- */
 #forkongithub a {
   color:#fff;
