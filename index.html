@@ -181,7 +181,8 @@
 </div>
 <div class="container {{ news.style }}">
 
-    {% for news in site.news  %}
+{% assign news = (site.news | sort: 'date') | reverse %}
+    {% for news in news limit:3   %}
 
     {% capture id %}{{ news.id | remove:'/' | downcase }}{% endcapture %}
 
@@ -266,6 +267,7 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
 <script type="text/javascript">
     var feed = new Instafeed({
         get: 'user',
+        limit: 6,
         userId: '192733729',
         accessToken: '1051855.ba4c844.1094e60318f64cdbb53699260cf5936f'
     });
