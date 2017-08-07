@@ -1,7 +1,7 @@
 ---
 title: 'Off the Chain with Tamika: Building Community'
 date: 2017-08-07 19:03:00 Z
-position: 16
+position: 17
 ---
 
 Hi LACBC Family,

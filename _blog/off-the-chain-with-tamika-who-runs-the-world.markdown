@@ -1,7 +1,7 @@
 ---
 title: 'Off the Chain With Tamika: Who Runs the World?'
 date: 2017-08-07 19:01:00 Z
-position: 11
+position: 12
 ---
 
 Who Runs the World?
