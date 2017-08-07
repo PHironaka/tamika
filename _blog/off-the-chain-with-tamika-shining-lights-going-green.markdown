@@ -1,7 +1,7 @@
 ---
 title: 'Off the Chain With Tamika: Shining Lights, Going Green'
 date: 2017-08-07 18:54:00 Z
-position: 4
+position: 6
 ---
 
 Dear LACBC fam,
