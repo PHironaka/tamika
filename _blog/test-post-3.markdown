@@ -1,6 +1,7 @@
 ---
 title: Test Post 3
 date: 2017-06-29 21:37:00 Z
+position: 3
 image: "/uploads/DCsIHx5VoAA998W.jpg"
 ---
 

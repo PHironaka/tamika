@@ -1,6 +1,7 @@
 ---
 title: September 20, 2016
 date: 2017-08-07 19:04:00 Z
+position: 16
 ---
 
 Thanks Jessica Pace for telling me to write it out. Thanks Kelly Perigoe for telling me to share.

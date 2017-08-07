@@ -1,6 +1,7 @@
 ---
 title: 'Off the Chain with Tamika: Celebrate My First Year by Donating to LACBC Today'
 date: 2017-08-07 19:02:00 Z
+position: 13
 ---
 
 Dear LACBC Fam,

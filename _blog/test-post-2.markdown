@@ -3,6 +3,7 @@ title: Test Post 2
 date: 2017-06-29 21:37:00 Z
 tags:
 - social justice
+position: 2
 image: "/uploads/DCsIHx5VoAA998W.jpg"
 ---
 
