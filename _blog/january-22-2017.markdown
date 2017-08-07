@@ -1,7 +1,7 @@
 ---
 title: January 22, 2017
 date: 2017-08-07 19:04:00 Z
-position: 18
+position: 19
 ---
 
 I posted over 100 pics of signs yesterday and I had a few people reach out about a couple of them. One sign I shared from Rudy Espinoza, via Mark Lopez, about if folks would be present for the next BLM march/event/rally and one sign about not forgetting that white women voted for Trump. Folks (mainly white ones) just wanted to remind me that the march was beautiful, that it brought people together, especially some first timers. I was reminded that if people are coming out for the first time, making them feel bad or questioning if it was enough wouldn't help them come out again. I get that. The march was beautiful. I'm glad I went.

@@ -1,7 +1,7 @@
 ---
 title: 'Off the Chain With Tamika: Celebrating Black History Month'
 date: 2017-08-07 18:55:00 Z
-position: 5
+position: 6
 ---
 
 Dear LACBC fam,

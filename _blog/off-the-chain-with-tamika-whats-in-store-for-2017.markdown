@@ -1,7 +1,7 @@
 ---
 title: 'Off the Chain With Tamika: What''s in Store for 2017'
 date: 2017-08-07 18:55:00 Z
-position: 6
+position: 7
 ---
 
 A message from Tamika Butler, LACBC's Executive Director:

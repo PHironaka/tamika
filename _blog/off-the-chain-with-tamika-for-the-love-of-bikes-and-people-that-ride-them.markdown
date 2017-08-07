@@ -1,7 +1,7 @@
 ---
 title: 'Off the Chain With Tamika: For the Love of Bikes (and People that Ride Them)'
 date: 2017-08-07 19:01:00 Z
-position: 11
+position: 12
 ---
 
 "Off the Chain with Tamika" is LACBC Executive Director Tamika Butler's monthly letter to the LACBC family. Here is the latest for February 2016.
