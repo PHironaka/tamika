@@ -1,7 +1,7 @@
 ---
 title: 'Off the Chain With Tamika: Thank You!'
 date: 2017-08-07 19:02:00 Z
-position: 14
+position: 12
 ---
 
 Dear LACBC Fam,

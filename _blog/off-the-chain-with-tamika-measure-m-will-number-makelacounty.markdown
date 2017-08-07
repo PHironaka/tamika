@@ -1,7 +1,7 @@
 ---
 title: 'Off the Chain with Tamika: Measure M Will #MakeLACounty. . .'
 date: 2017-08-07 19:00:00 Z
-position: 11
+position: 9
 ---
 
 Off the Chain with Tamika: Measure M Will #MakeLACounty

@@ -1,7 +1,7 @@
 ---
 title: 'Off the Chain With Tamika: Fall into Lots of Year-End Fun'
 date: 2017-08-07 19:02:00 Z
-position: 16
+position: 14
 ---
 
 Hi LACBC Family,
