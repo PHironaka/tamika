@@ -1,6 +1,7 @@
 ---
 title: November 9, 2016
 date: 2017-08-07 19:04:00 Z
+position: 19
 ---
 
 So here’s the thing. I couldn’t sleep. It wasn’t because I was upset about our new president. It’s because I’m worried about how I continue to show up for the other people I care about. I’m okay, but how do I support my staff, my wife, my family back home in the middle of a very red state, and my friends all over the world.

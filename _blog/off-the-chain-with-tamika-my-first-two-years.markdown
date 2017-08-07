@@ -1,6 +1,7 @@
 ---
 title: 'Off the Chain with Tamika: My First Two Years'
 date: 2017-08-07 18:56:00 Z
+position: 9
 ---
 
 Dear LACBC fam,
