@@ -2,6 +2,7 @@
 title: 'Off the Chain With Tamika: What''s in Store for 2017'
 date: 2017-08-07 18:55:00 Z
 position: 8
+image: "/uploads/Tamika_Operation_Firefly.jpg"
 ---
 
 A message from Tamika Butler, LACBC's Executive Director:
