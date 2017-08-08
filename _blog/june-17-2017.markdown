@@ -1,7 +1,8 @@
 ---
 title: June 17, 2017
-date: 2017-08-07 19:05:00 Z
+date: 2017-08-08 07:05:00 Z
 position: 0
+layout: default
 ---
 
 The outpouring of love and support the last few days has been beautiful and humbling. I've stayed quiet because I'm overwhelmed by the love, but also because it's not really about me. It's always been about the work. Stepping away from something isn't about leaving it behind, it's about knowing that others are there to step up and getting out of the way for them to do so.

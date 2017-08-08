@@ -2,6 +2,8 @@
 title: 'Off the Chain With Tamika: Celebrating Black History Month'
 date: 2017-08-07 18:55:00 Z
 position: 7
+image: "/uploads/Tamika_First_Day.jpg"
+layout: default
 ---
 
 Dear LACBC fam,
@@ -16,11 +18,11 @@ We’ve also supported other transportation advocates in other cities who are ta
 
 As we grow at LACBC, we’re going to keep organizing. Starting next month, we look forward to introducing you to our new Organizing Director. We’re going to keep pushing for what’s right, and we hope you’ll join us.  
 
- 
+
 
 Ride on,
 
- 
+
 
 Tamika Butler
 

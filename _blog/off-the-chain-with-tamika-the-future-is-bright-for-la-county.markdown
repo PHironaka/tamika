@@ -2,6 +2,7 @@
 title: 'Off the Chain with Tamika: The Future Is Bright for L.A. County'
 date: 2017-08-07 18:59:00 Z
 position: 10
+layout: default
 ---
 
 Hey LACBC Fam,

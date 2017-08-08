@@ -1,7 +1,8 @@
 ---
 title: February 27, 2017
-date: 2017-08-07 19:05:00 Z
+date: 2017-08-08 06:05:00 Z
 position: 2
+layout: default
 ---
 
 I’m sitting in this Bronx apartment that's been in my mom's family for years. It's the day after the Oscars, the day before a family funeral, and I'm listening to stories and thinking about storytelling.

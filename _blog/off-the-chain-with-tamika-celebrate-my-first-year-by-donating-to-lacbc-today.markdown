@@ -2,6 +2,7 @@
 title: 'Off the Chain with Tamika: Celebrate My First Year by Donating to LACBC Today'
 date: 2017-08-07 19:02:00 Z
 position: 15
+layout: default
 ---
 
 Dear LACBC Fam,
@@ -28,7 +29,7 @@ Donate.jpg
 
 Thanks for your support,
 
- 
+
 
 Tamika Butler
 LACBC Executive Director
@@ -38,4 +39,3 @@ tamika@la-bike.org
 P.S. Did you know that you can donate directly to one of LACBC’s 12 local chapters?
 
 P.P.S. This year’s 15th Annual Los Angeles River Ride had over 2,500 participants, our most successful River Ride to date. We hope you’ll mark your calendar for June 12th, 2016, and join us next year!
-
