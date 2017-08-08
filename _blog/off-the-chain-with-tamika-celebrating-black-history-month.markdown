@@ -3,6 +3,7 @@ title: 'Off the Chain With Tamika: Celebrating Black History Month'
 date: 2017-08-07 18:55:00 Z
 position: 7
 image: "/uploads/Tamika_First_Day.jpg"
+layout: default
 ---
 
 Dear LACBC fam,
