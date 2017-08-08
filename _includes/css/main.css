@@ -73,7 +73,7 @@ hr {
 .container p, .container ol, .container ul {
   font-size: 16px;
 }
-.container ol, .container ul { padding: 0 3%; }
+.container ol, .container ul { padding: 0 3% 0 0; list-style: none;}
 .container p:first-of-type {
     margin-top: 20px;
 }
@@ -421,6 +421,10 @@ vertical-align: top;
 .blog h5 {
       padding: 0 4%;
 }*/
+
+.container .page-content {
+  margin: 8em 0;
+}
 
 .container h2 {
   margin: 2em 0;
@@ -779,4 +783,15 @@ background-size: cover;
     -moz-column-count:    2;
     column-count:         2;
   }
+}
+
+.pagination {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.pagination li {
+    display: inline;
+    padding-right: 3em;
 }

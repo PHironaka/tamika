@@ -6,12 +6,50 @@
   <body>
 
     {% include header.html %}
-  <div class="wrapper">
+  <div class="container">
     <div class="page-content ">
 
         {{ content }}
       </div>
 
+      {% include pagination.html %}
 
-    {% include footer.html %}
-  </div>
+    </div>
+
+
+      <div id="footer" class="section text-white">
+
+
+        <div class="container">
+
+          <div class="contact-email">
+            {% capture foottext %} {% include footer.md %} {% endcapture %}
+            {{ foottext | markdownify }}
+
+          </div>
+
+
+          <!-- <div id="wufoo-z1hmgds813r57vp">
+      </div>
+      <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"></div>
+      <script type="text/javascript">var z1hmgds813r57vp;(function(d, t) {
+      var s = d.createElement(t), options = {
+      'userName':'phironaka',
+      'formHash':'z1hmgds813r57vp',
+      'autoResize':true,
+      'height':'630',
+      'async':true,
+      'host':'wufoo.com',
+      'header':'hide',
+      'ssl':true};
+      s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+      s.onload = s.onreadystatechange = function() {
+      var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+      try { z1hmgds813r57vp = new WufooForm();z1hmgds813r57vp.initialize(options);z1hmgds813r57vp.display(); } catch (e) {}};
+      var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+      })(document, 'script');</script> -->
+
+
+
+        </div>
+      </div>  </div>

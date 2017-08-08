@@ -2,6 +2,7 @@
 title: November 9, 2016
 date: 2017-08-07 19:04:00 Z
 position: 19
+layout: default
 ---
 
 So here’s the thing. I couldn’t sleep. It wasn’t because I was upset about our new president. It’s because I’m worried about how I continue to show up for the other people I care about. I’m okay, but how do I support my staff, my wife, my family back home in the middle of a very red state, and my friends all over the world.
@@ -15,4 +16,3 @@ But friends of privilege, I ask you, as you completely fall apart and melt and m
 As you wake up today and wonder. Remember that self-care is crucial. Remember that this man is the President of the United States, no do overs, it’s done. Be curious. Ask questions. Figure out what you can do to keep fighting. The election is over, but today I still woke up as the same person. For POCs in this country know that our struggle is now harder, but we always knew there was a struggle. Let me be clear, this is the worse version of what could have happened yesterday. This is horrible. This makes all lives of people who lack choice in many ways harder. Trump isn’t great. But Trump didn’t get to be President of this country alone. This country did this. We’ve lived in this struggle. We’ve lived trying to get free. I woke up today to still struggle. I’m sad, but I will find joy. I will find a way. And I will continue to be unapologetically me. Challenge the wrongs I see. Keep fighting. Know that my life matters. Keep getting free. Do what you need to do. But know tomorrow, the sun will rise again. You can leave. You can run. You can fade away. You can go back to sleeping on the realities for many of us in this country. But for many of us today is a scarier version of yesterday, but it’s also just another day. We woke. We been woke.
 For me, I am resolute. I am ready to keep working. I didn’t do this work or live my life for one election or one person. I do this for us. Because we’re all we have. I’m still on one. I’m still me. There will still be days when I’m down. But there will also be laughs, there will be joy, there will be another tomorrow. I’m still grinding.
 What about you? What’s next?
-

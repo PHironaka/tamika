@@ -2,6 +2,7 @@
 title: 'Off the Chain with Tamika: My First Two Years'
 date: 2017-08-07 18:56:00 Z
 position: 9
+layout: default
 ---
 
 Dear LACBC fam,
@@ -58,6 +59,6 @@ At the LACBC staff's Ugly Sweater party last week.
 
 Tamika Butler
 LACBC Executive Director
-tamika@la-bike.org 
+tamika@la-bike.org
 
 P.S. It’s also my mom’s birthday today. And I love her. And she reads this because she’s an LACBC supporter. So happy birthday, Mom!

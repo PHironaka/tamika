@@ -2,13 +2,14 @@
 title: 'Off the Chain With Tamika: Fall into Lots of Year-End Fun'
 date: 2017-08-07 19:02:00 Z
 position: 16
+layout: default
 ---
 
 Hi LACBC Family,
 
 The sun sets sooner, we’ve hit fall, it’s getting cooler and like always, the weather is still perfect to ride in L.A. We’ve had a busy month all over thec ounty and state and I wanted to give you a few updates.
 
-Operation Firefly has officially kicked off last week in NoHo thanks to the generosity of our season sponsor, Laemmle Charitable Foundation, and our Team Firefly volunteers. This program is an excellent way to get involvedwith LACBC and give back to the community of bicyclists to light up their rides, so please consider joining us for a distribution. 
+Operation Firefly has officially kicked off last week in NoHo thanks to the generosity of our season sponsor, Laemmle Charitable Foundation, and our Team Firefly volunteers. This program is an excellent way to get involvedwith LACBC and give back to the community of bicyclists to light up their rides, so please consider joining us for a distribution.
 
 In the theme of Operation Firefly, we had our 2nd Annual Firefly Ball a few weeks ago. We had a lot of fun and I want to thank all of you who supported us, enjoyed good food and drinks, and made some new friends. If you missed it, check out the blog post and photo album, and join us next year.
 
