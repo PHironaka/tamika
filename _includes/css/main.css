@@ -136,7 +136,8 @@ nav ul li {
   letter-spacing:normal;
   text-transform:uppercase;
   line-height:60px;
-      margin: 0 20px 0 0;
+      margin: 0;
+      padding: 0 3%;
 }
 
 @media screen and (max-width:468px) {
@@ -651,7 +652,6 @@ background: #0f0f6f;
     color: white;
     border-radius: 0;
     margin: 0 2em;
-
 }
 
 
@@ -676,6 +676,8 @@ background: #0f0f6f;
     width: 50px;
 height: 50px;
 background-size: cover;
+    outline: none;
+    cursor: pointer;
 }
 
 /* Arrows */
