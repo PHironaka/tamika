@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="883px" viewBox="0 0 1440 883" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>header</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="103.977562%" y2="201.242039%" id="linearGradient-1">
+            <stop stop-color="#6176FA" offset="0%"></stop>
+            <stop stop-color="#030205" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header" fill-rule="nonzero">
+            <polygon id="Shape" fill="url(#linearGradient-1)" points="0 0 1440 0 1440 883 0 883"></polygon>
+            <path d="M1436.7,0 L0,0 L0,65.1 C152.1,134.9 393.3,180 665,180 C1013.9,180 1312.7,105.6 1436.7,0 Z" id="top-left" fill="#FFFFFF" opacity="0.08"></path>
+            <path d="M316,525 C204.1,525 97.4,532.7 0,546.5 L0,883 L1125.1,883 C1140.7,860.9 1149,837.8 1149,814 C1149,654.4 776.1,525 316,525 Z" id="bottom-left" fill="#C25847" opacity="0.15"></path>
+            <path d="M506.3,883 L1440,883 L1440,765 C1364.6,757.2 1284.7,753 1202,753 C911.3,753 655.3,804.7 506.3,883 Z" id="bottom-right" fill="#C25847" opacity="0.15"></path>
+            <path d="M1440,124.3 L1440,0 L475.6,0 C622.1,82.8 885.5,138 1186,138 C1274.6,138 1359.9,133.2 1440,124.3 Z" id="top-right" fill="#FFFFFF" opacity="0.1"></path>
+        </g>
+    </g>
+</svg>

@@ -208,6 +208,32 @@ padding: 8px;
   color: #5D6A6E;
 }
 
+.page-title {
+background: url(/img/header.svg);
+position: absolute;
+top: 0;
+width: 100%;
+min-height: 200px;
+max-width: 100%;
+background-size: cover;
+margin-left: auto;
+margin-right: auto;
+height: 100%;
+position: relative;
+padding: 0 2.55555em;
+overflow: hidden;
+
+}
+
+.page-title h2 {
+  position: relative;
+display: block;
+top: 2em;
+color: white;
+font-size: 2em;
+
+}
+
 #bio-pic {
   background: url({{site.logo}});
   background-attachment: fixed;
@@ -791,7 +817,21 @@ background-size: cover;
     margin-right: auto;
     text-align: left;
 }
+
+.pagination h3 {
+text-align: center;
+}
+
+.pagination ul {
+  text-align: center;
+  padding: 0;
+}
+
 .pagination li {
-    display: inline;
-    padding-right: 3em;
+    display: inline-block;
+      margin: 1em;
+}
+
+.pagination li img {
+  max-width: 57px;
 }
