@@ -50,10 +50,4 @@ date: 2017-08-14 17:22:00 Z
 <img src="../img/LGBT.png">
 </div>
 
-<!-- <div class= "logo--row">
-<img src="../img/microsoft.jpg">
-</div> -->
 
-<!-- {% highlight html linenos=table %}
-<img src="/img/microsoft.jpg"> <img src="/img/microsoft.jpg">
-{% endhighlight %} -->
