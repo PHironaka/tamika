@@ -5,6 +5,9 @@ collections:
   blog:
     title: Blog
     output: true
+  logos:
+    title: Logos
+    output: true
   news:
     title: News
     output: true
@@ -16,9 +19,6 @@ collections:
     output: true
   videos:
     title: Videos
-    output: true
-  logos:
-    title: logos
     output: true
 port: 4000
 host: 0.0.0.0
