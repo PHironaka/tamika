@@ -1,9 +1,7 @@
 ---
-title: speaking
-date: 2000-01-03 00:00:00 Z
-published: false
+title: engagements
+date: 2017-08-14 17:22:00 Z
 bg: ECF1F0
-color: black
 ---
 
 ## Recent Engagements
@@ -53,10 +51,4 @@ color: black
 <img src="../img/LGBT.png">
 </div>
 
-<!-- <div class= "logo--row">
-<img src="../img/microsoft.jpg">
-</div> -->
 
-<!-- {% highlight html linenos=table %}
-<img src="/img/microsoft.jpg"> <img src="/img/microsoft.jpg">
-{% endhighlight %} -->

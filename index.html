@@ -115,9 +115,17 @@
 	</section>
 </section>
 </div>
-<!-- <div id="contact" class="section p-contact">
 
-</div> -->
+
+{% for page in site.logos %}
+
+<div id="engagements" class="section p-engagements">
+
+  <div class="container {{ page.style }}">
+    {{ page.content }}
+  </div>
+</div>
+{% endfor %}
 
     <div id="blog" class="section p-blog">
 
