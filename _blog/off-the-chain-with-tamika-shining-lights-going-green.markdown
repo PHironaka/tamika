@@ -6,7 +6,7 @@ image: "/uploads/BikeShare16.jpg"
 layout: default
 ---
 
-Dear LACBC fam,
+Tamika Dear LACBC fam,
 
 The weather is great! Daylight saving time is over and we wanted to share some news. Operation Firefly season just concluded last week  and it was more successful than ever! I was also just named to theMetro Policy Advisory Council and will be working with a group of amazing leaders on shaping the Measure M guidelines. Finally, we also wanted you to know that we’re celebrating St. Patrick’s Day and green bike lanes tomorrow with a ride!
 
