@@ -33,9 +33,9 @@ gems:
 lsi: false
 markdown: kramdown
 keywords: Tamika Butler, Social Justice, Consulting, Speaking
-description: 'Tamika is the Executive Director of the Los Angeles County Bicycle Coalition. '
-source_link: https://github.com/t413/SinglePaged
-url: https://tamikabutler.com
+description: Tamika is the Executive Director of the Los Angeles Neighborhood Land
+  Trust.
+source_link: https://tamikabutler.com
 favicon: img/favicon.ico
 touch_icon: img/apple-touch-icon.png
 logo: "/uploads/HeaderHero.png"
@@ -76,3 +76,4 @@ speaking: 'As a speaker at your event or meeting, Tamika will use her unique ble
   leave the room thinking differently and challenging themselves to stay engaged.
 
 '
+url: https://tamikabutler.com
